@@ -1,11 +1,9 @@
-import pandas as pd 
+
 import numpy as np 
 
-df= pd.read_csv('dataset.csv')
-print(df)
+X= np.array([0,1,2,3,4])
+y= np.array([1,3,7,13,21])
 
-X=df['X'].values
-y=df['y'].values
 
 # initialize parameters and keep w0 constant 
 # we want to visualise RSS with respect to one dimension of parameter 

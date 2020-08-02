@@ -2,7 +2,7 @@
 # here parameters are of a line which have intercept as w0 and slope as w1.
 # this algo is based on formulaes of w0 and w1 which we get after finding gradient of RSS
 
-
+import numpy as np
 import matplotlib.pyplot as plt 
 
 X= np.array([0,1,2,3,4])
